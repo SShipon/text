@@ -1,0 +1,97 @@
+
+ [
+      {
+        "id": 1,
+        "title": "HTML",
+        "logo": "https://res.cloudinary.com/drojlcuyf/image/upload/v1730103906/html_biti44.png"
+      },
+      {
+        "id": 2,
+        "title": "CSS",
+        "logo": "https://res.cloudinary.com/drojlcuyf/image/upload/v1730103905/Css_yk6uyq.png"
+      },
+      {
+        "id": 3,
+        "title": "Tailwind",
+        "logo": "https://res.cloudinary.com/drojlcuyf/image/upload/v1730103907/Tailwind_f1ebnw.png"
+      },
+      {
+        "id": 4,
+        "title": "Bootstrap",
+        "logo": "https://res.cloudinary.com/drojlcuyf/image/upload/v1730103905/Bootstrap_rj2urq.png"
+      },
+      {
+        "id": 5,
+        "title": "Shadcn",
+        "logo": "https://res.cloudinary.com/drojlcuyf/image/upload/v1730103907/Shadcn_sdanch.png"
+      },
+      {
+        "id": 6,
+        "title": "Material UI",
+        "logo": "https://res.cloudinary.com/drojlcuyf/image/upload/v1730103906/Mui_f6hphq.png"
+      },
+      
+      {
+        "id": 7,
+        "title": "NextAuth",
+        "logo": "https://res.cloudinary.com/drojlcuyf/image/upload/v1730103907/nextAuth_nmrjz3.png"
+      },
+      {
+        "id": 8,
+        "title": "Figma",
+        "logo": "https://res.cloudinary.com/drojlcuyf/image/upload/v1730103905/Figma_l8gur3.png"
+      },
+      {
+        "id": 9,
+        "title": "JavaScript",
+        "logo": "https://res.cloudinary.com/drojlcuyf/image/upload/v1730105054/download__12_-removebg-preview_jvytvb.png"
+      },
+      {
+        "id": 10,
+        "title": "Node",
+        "logo": "https://res.cloudinary.com/drojlcuyf/image/upload/v1730103906/NodeJs_nos3fb.png"
+      },
+      {
+        "id": 11,
+        "title": "Express",
+        "logo": "https://res.cloudinary.com/drojlcuyf/image/upload/v1730103905/Express_l3nlix.png"
+      },
+      {
+        "id": 12,
+        "title": "React",
+        "logo": "https://res.cloudinary.com/drojlcuyf/image/upload/v1730104569/react_tfwga7.png"
+      },
+      {
+        "id": 13,
+        "title": "Redux",
+        "logo": "https://res.cloudinary.com/drojlcuyf/image/upload/v1730103907/Redux_yvt587.png"
+      },
+      {
+        "id": 14,
+        "title": "Next",
+        "logo": "https://res.cloudinary.com/drojlcuyf/image/upload/v1730103907/NextJs_tgkmes.png"
+      },
+      {
+        "id": 15,
+        "title": "Astro",
+        "logo": "https://res.cloudinary.com/drojlcuyf/image/upload/v1730103905/AstroJs_gkh0e0.png"
+      },
+      {
+        "id": 16,
+        "title": "TypeScript",
+        "logo": "https://res.cloudinary.com/drojlcuyf/image/upload/v1730103907/TypeScript_sfclch.png"
+      },
+      {
+        "id": 17,
+        "title": "GitHub",
+        "logo": "https://res.cloudinary.com/drojlcuyf/image/upload/v1730104806/download__15_-removebg-preview_lbz0hl.png"
+      },
+      {
+        "id": 18,
+        "title": "Firebase",
+        "logo": "https://res.cloudinary.com/drojlcuyf/image/upload/v1730103906/Firebase_jmdqzk.png"
+      }
+      
+    ]
+
+  

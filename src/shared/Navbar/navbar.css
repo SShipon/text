@@ -1,0 +1,35 @@
+
+.navbar {
+    background-color: transparent;
+    position: fixed;
+    top:0;
+    z-index: 1;
+  font-weight: 400;
+  background: #0b041e;
+  color: #fff;    
+}
+
+/* Light mode styles */
+body.light {
+  --bg-color: #f8f9fa !important;
+  --text-color: #212529 !important; 
+}
+
+/* Dark mode styles */
+body.dark {
+  --bg-color: #212529 !important;
+  --text-color: #f8f9fa !important;
+}
+
+
+
+/*  my component updated */
+ 
+.navbar.colorChange {
+  background: linear-gradient(90deg, #1c0d41, #0b0420, #0f0b0c, #1c0d41);
+}
+
+
+.miniNav{
+  background: linear-gradient(90deg, #0b041e, #0b0420, #0f0b0c, #0c0420);
+}

@@ -1,0 +1,122 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  
+  
+  
+  .bloc-tabs {
+    display: flex;
+  }
+  .tabs {
+  
+    padding: 15px;
+    text-align: center;
+    width: 50%;
+    background: linear-gradient(
+    157.81deg,
+    #2f4041 -43.27%,
+    #8748a7 -21.24%,
+    #263c3d 12.19%,
+    #8bb8c0 29.82%,
+    #07a0a5 51.94%,
+    #263639 90.29%
+  );
+    cursor: pointer;
+    box-sizing: content-box;
+    position: relative;
+    outline: none;
+  }
+
+
+  
+  .tabs:not(:last-child){
+    border-right: 1px solid rgba(0, 0, 0, 0.274);
+  }
+  
+  .active-tabs  {
+  
+    border-bottom: 1px solid transparent;
+  }
+  
+  .active-tabs::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% + 2px);
+    height: 2px;
+    background: linear-gradient(90deg, #3f1eff, #f459ff, #fc6a93, #fff2a2);
+  }
+  
+  
+  
+  button span{
+    font-size: bold;
+   color: #fff;
+    
+  }
+  .content-tabs {
+    flex-grow : 1;
+  }
+  .content {
+    background: #18151500;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .content h2 {
+    padding: 0px 0 5px 0px;
+  }
+  .content hr {
+    width: 100px;
+    height: 2px;
+    background: #222;
+    margin-bottom: 5px;
+  }
+  .content p {
+    width: 100%;
+    height: 100%;
+  }
+  .active-content {
+    display: block;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .tabs {
+  
+      padding: 8px;
+      text-align: center;
+      width: 50%;
+      background: linear-gradient(90deg, #1c0d41, #0b0420, #0f0b0c, #1c0d41);
+      cursor: pointer;
+      box-sizing: content-box;
+      position: relative;
+      outline: none;
+    }
+  
+  }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .tabs {
+    padding: 8px;
+    text-align: center;
+    width: 50%;
+    background: linear-gradient(90deg, #1c0d41, #0b0420, #0f0b0c, #1c0d41);
+    cursor: pointer;
+    box-sizing: content-box;
+    position: relative;
+    outline: none;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
